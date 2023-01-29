@@ -1,0 +1,36 @@
+GIT LINUX COMMANDS
+To clone the repository from github to our local
+Open command task and navigate to desired folder to clone the repository
+git clone <url from git repository>
+ 
+git status = to check the stauts of the code in VS
+git add . = to add the code in git repository
+git commit -m “<message>” = make the change commit
+git push = push the change to git hub repository
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+To add the folder
+git init
+git add .
+git remote add origin <url from repository>
+git push origin main
+ 
+git pull origin main --allow-unrelated-histories
+ 
+=======
+=======
+>>>>>>> bf9428d32d7d7d46ee8ae756fca1871799d01009
+To add the folder to repository
+git init
+git add .
+git remote add origin <url from repository>
+git push origin main(if this doesn’t work then use this “git push --set-upstream origin master”. This will create another branch and add the content to the folder)
+<<<<<<< HEAD
+>>>>>>> bf9428d32d7d7d46ee8ae756fca1871799d01009
+=======
+>>>>>>> bf9428d32d7d7d46ee8ae756fca1871799d01009
+After updating the document, use the below commands
+git add .
+git commit -m “<msg>”
+git push origin <main or master>
